@@ -1,0 +1,37 @@
+<script type="text/javascript">
+var db = window.openDatabase("mydata", "1.0","数据库描述",20000);  
+//window.openDatabase("数据库名字", "版本","数据库描述",数据库大小);  
+//if(db)   
+     //alert("新建数据库成功！");  
+         
+db.transaction(function(tx) {  
+    tx.executeSql("CREATE TABLE test (id int UNIQUE, mytitle TEXT, timestamp REAL)");  
+});  
+    
+db.transaction(function(tx) {  
+    tx.executeSql("INSERT INTO test (mytitle, timestamp) values(?, ?)", ["WEB Database", new Date().getTime()],  
+        null, null);  
+});  
+    
+//db.transaction(function(tx) {  
+//    tx.executeSql("DROP TABLE qqs");  
+//})  
+    
+//db.transaction(function(tx) {  
+//    tx.executeSql("update test set mytitle=?  
+//    where mytitle = 'fsafdsaf'",['xp'],null,null);  
+//});  
+    
+db.transaction(function(tx) {  
+    tx.executeSql("SELECT * FROM test", [],   
+        function(tx, result) {  
+        for(var i = 0; i < result.rows.length; i++){  
+        document.write('<b>' +  
+                         result.rows.item(i)['mytitle'] +  
+                         '</b><br />');  
+        }  
+    }, function(){  
+        alert("error");  
+    });  
+});
+</script>

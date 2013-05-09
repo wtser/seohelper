@@ -1,0 +1,245 @@
+<!DOCTYPE html> 
+<html> 
+　<head> 
+　　<title>SEO小助手</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script> 
+</head> 
+<body>
+　<!-- Start of first page -->
+<div data-role="page" id="index">
+
+	<div data-role="header">
+		<h1>SEO小助手</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<label for="url-1">网站收录查询</label>
+    	<input type="url" data-clear-btn="true" name="url-1" id="site-for-index" value="" placeholder="输入网址,不加http"  >
+     	<a href="#site-index" data-role="button" id="getIndex" >查询收录量</a>
+
+     	<label for="url-1">网站关键词排名查询</label>
+    	
+    	<input type="url" data-clear-btn="true" name="url-1" id="site-for-order" value="" placeholder="输入网址,不加http" >
+    	<input type="url" data-clear-btn="true" name="url-1" id="keyword-for-order" value="" placeholder="输入关键词,多个关键词用空格分开" >
+     	<a href="#site-order" data-role="button" id="getOrder" >查询关键词排名</a>
+	
+	</div><!-- /content -->
+
+	<div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li class="index" ><a class="ui-btn-active ui-state-persist" href="#index">手动查询</a></li>
+				<li class="order"><a  href="#order">排行</a></li>
+				<li class="indexs"><a  href="#indexs">收录</a></li>
+				<li class="setting"><a href="#setting">网站管理</a></li>
+				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- Start of second page -->
+<div data-role="page" id="site-index">
+
+	<div data-role="header">
+		<h1>网站收录量结果</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<p id="site-index-result"></p>
+		<p><a href="#index">返回</a></p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				
+				<li class="index" ><a class="ui-btn-active ui-state-persist" href="#index">手动查询</a></li>
+				<li class="order"><a  href="#order">排行</a></li>
+				<li class="indexs"><a  href="#indexs">收录</a></li>
+				<li class="setting"><a href="#setting">网站管理</a></li>
+				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="site-order">
+
+	<div data-role="header">
+		<h1>关键词排名结果</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<p id="site-order-result"></p>
+		<p><a href="#index">返回</a></p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li class="index" ><a class="ui-btn-active ui-state-persist" href="#index">手动查询</a></li>
+				<li class="order"><a  href="#order">排行</a></li>
+				<li class="indexs"><a  href="#indexs">收录</a></li>
+				<li class="setting"><a href="#setting">网站管理</a></li>
+				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+<div data-role="page" id="order">
+
+	<div data-role="header">
+		<h1>关键词排行</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		 <p id="order-result"></p>
+		<table data-role="table" id="table-column-toggle" data-mode="columntoggle" class="ui-responsive table-stroke">
+		<!-- <table data-role="table" id="movie-table" data-mode="reflow" class="ui-responsive table-stroke"> -->
+  <thead>
+    <tr>
+     
+      <th data-priority="persist">域名</th>
+      <th data-priority="2">关键词排名</th> 
+
+    </tr>
+  </thead>
+  <tbody>
+     
+  	</tbody>
+	</table>
+		<p><a href="#index">返回</a></p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li class="index" ><a  href="#index">手动查询</a></li>
+				<li class="order"><a class="ui-btn-active ui-state-persist"  href="#order">排行</a></li>
+				<li class="indexs"><a  href="#indexs">收录</a></li>
+				<li class="setting"><a href="#setting">网站管理</a></li>
+				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+<div data-role="page" id="indexs">
+
+	<div data-role="header">
+		<h1>收录结果</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<p id="site-indexs-result"></p>
+		<table data-role="table" id="table-column-toggle" data-mode="columntoggle" class="ui-responsive table-stroke">
+		<!-- <table data-role="table" id="movie-table" data-mode="reflow" class="ui-responsive table-stroke"> -->
+  <thead>
+    <tr>
+     
+      <th data-priority="persist">域名</th>
+      <th data-priority="2">收录</th>     
+    </tr>
+  </thead>
+  <tbody>
+     
+  	</tbody>
+	</table>
+
+		<p><a href="#index">返回</a></p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li class="index" ><a  href="#index">手动查询</a></li>
+				<li class="order"><a  href="#order">排行</a></li>
+				<li class="indexs"><a class="ui-btn-active ui-state-persist"  href="#indexs">收录</a></li>
+				<li class="setting"><a href="#setting">网站管理</a></li>
+				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+<div data-role="page" id="setting">
+
+	<div data-role="header">
+		<h1>网站管理</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<table data-role="table" id="table-column-toggle" data-mode="columntoggle" class="ui-responsive table-stroke">
+		<!-- <table data-role="table" id="movie-table" data-mode="reflow" class="ui-responsive table-stroke"> -->
+  <thead>
+    <tr>
+     
+      <th data-priority="persist">域名</th>
+      <th data-priority="2">关键词</th>
+       <th data-priority="2">操作</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+
+    
+    
+  </tbody>
+</table>
+	
+     	<a href="#site-add" data-role="button" id="addSite" >添加网站</a>
+		<p><a href="#index">返回</a></p>
+		<p><a href="#empty">清空</a></p>
+	</div><!-- /content -->
+
+
+	<div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li class="index" ><a  href="#index">手动查询</a></li>
+				<li class="order"><a  href="#order">排行</a></li>
+				<li class="indexs"><a  href="#indexs">收录</a></li>
+				<li class="setting"><a class="ui-btn-active ui-state-persist" href="#setting">网站管理</a></li>
+				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="site-add">
+
+	<div data-role="header">
+		<h1>添加网站 - 网站管理</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<h2>添加网站</h2>
+    	
+    	<input type="url" data-clear-btn="true" name="url-1" id="site-for-add" value="" placeholder="输入网址,不用加http" >
+    	<input type="url" data-clear-btn="true" name="url-1" id="keyword-for-add" value="" placeholder="输入关键词,多个关键词用空格分开" >
+    	<a href="#site-add-action" data-role="button" id="addSiteAction" >添加网站</a>
+		<p><a href="#index">返回</a></p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li class="index" ><a  href="#index">手动查询</a></li>
+				<li class="order"><a  href="#order">排行</a></li>
+				<li class="indexs"><a  href="#indexs">收录</a></li>
+				<li class="setting"><a class="ui-btn-active ui-state-persist" href="#setting">网站管理</a></li>
+				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<script type="text/javascript" src="site.js"></script>
+</body>
+</html>

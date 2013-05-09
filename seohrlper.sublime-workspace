@@ -1,0 +1,441 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"order",
+				"order-result"
+			],
+			[
+				"get",
+				"getIndex"
+			],
+			[
+				"ma",
+				"matchFirst"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"p",
+				"pn"
+			],
+			[
+				"f",
+				"flink"
+			],
+			[
+				"cla",
+				"classkit_method_add"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"num",
+				"num_now"
+			],
+			[
+				"che",
+				"checkbox"
+			],
+			[
+				"check",
+				"checked"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"html",
+				"htmlcode"
+			],
+			[
+				"htm",
+				"htmlcode"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"anse",
+				"answerR"
+			],
+			[
+				"ag",
+				"again"
+			],
+			[
+				"again",
+				"againSpan"
+			],
+			[
+				"del",
+				"delQuestion"
+			],
+			[
+				"q",
+				"questionType"
+			],
+			[
+				"classify",
+				"classifyIs"
+			],
+			[
+				"cl",
+				"classifyIs"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/PHP/htdocs/seohelper/index.html",
+		"/E/PHP/htdocs/seohelper/getOrder.php",
+		"/E/PHP/htdocs/seohelper/getIndex.php",
+		"/E/PHP/htdocs/xuekao/application/config/config.php",
+		"/E/PHP/htdocs/xuekao/.htaccess",
+		"/E/PHP/htdocs/seohelper/index.php",
+		"/E/PHP/htdocs/seohelper/index1.php",
+		"/E/PHP/htdocs/seohelper",
+		"/E/桌面/weixin.php",
+		"/E/桌面/index.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/c1/exam_paper.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/c1/exam_official.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/c1/exam_original.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/c1/list.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/c1/random.php",
+		"/E/桌面/style.css",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/c1/fault.php",
+		"/E/php/htdocs/SkyDrive/xuekao/index.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/admin/header.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/controllers/admin_soude.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/c1/index.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/controllers/welcome.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/c1/faultPrint.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/controllers/km3.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/controllers/km1.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/config/config.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/c1/getQuestionByIdPrint.php",
+		"/E/桌面/single.php",
+		"/E/桌面/page.php",
+		"/E/桌面/footer.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/admin/paper.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/c1/header.php",
+		"/E/php/htdocs/SkyDrive/xuekao/application/views/admin/login.php",
+		"/E/PHP/htdocs/SkyDrive/xuekao/application/views/c1/header.php",
+		"/C/Users/Administrator/Desktop/ToDoList.txt",
+		"/E/php/htdocs/SkyDrive/xuekao/.htaccess",
+		"/E/php/htdocs/SkyDrive/xuekao/ks_j.sublime-project",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/header.php",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/exam_original.php",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/getQuestion.php",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/getExamQuestion.php",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/getQuestionByIdPrint.php",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/getQuestionById.php",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/list.php",
+		"/E/php/htdocs/kaoshi_jian/application/controllers/km3.php",
+		"/E/php/htdocs/kaoshi_jian/application/controllers/km1.php",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/index.php",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/faultPrint.php",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/fault.php",
+		"/E/php/htdocs/kaoshi_jian/application/config/config.php",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/exam_official.html",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/exam_official.php",
+		"/C/Users/Administrator/Documents/GitHub/wtser.github.com/work/20130409.md",
+		"/C/Users/Administrator/Documents/GitHub/wtser.github.com/work/20130408.md",
+		"/C/Users/Administrator/Documents/GitHub/wtser.github.com/work/index.html",
+		"/C/Users/Administrator/Documents/GitHub/wtser.github.com/_config.yml",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/exam_paper.php",
+		"/E/php/htdocs/kaoshi_jian/application/views/c1/exam.php",
+		"/E/php/htdocs/kaoshi/application/controllers/c1.php",
+		"/E/php/htdocs/kaoshi/application/.htaccess",
+		"/E/php/htdocs/kaoshi/application/config/config.php",
+		"/C/Users/Administrator/Desktop/Done.txt",
+		"/C/Users/Administrator/Desktop/b2.php",
+		"/C/Users/Administrator/Desktop/c1.php",
+		"/C/Users/Administrator/Desktop/a1.php",
+		"/E/php/htdocs/kaoshi/application/config/database.php",
+		"/E/php/htdocs/kaoshi/application/controllers/json.php",
+		"/C/Users/Administrator/Desktop/exam.sql",
+		"/E/php/htdocs/kaoshi/application/views/C1/random.php",
+		"/E/php/htdocs/kaoshi/application/views/C1/list.php",
+		"/E/php/htdocs/kaoshi/application/views/C1/index2.php",
+		"/E/php/htdocs/kaoshi/application/views/C1/index.php",
+		"/E/php/htdocs/kaoshi/application/views/C1/header.php",
+		"/E/php/htdocs/kaoshi/application/views/C1/getQuestionById.php",
+		"/E/php/htdocs/kaoshi/application/views/C1/getQuestion.php",
+		"/E/php/htdocs/kaoshi/application/views/C1/getExamQuestion.php",
+		"/E/php/htdocs/kaoshi/application/views/C1/fault.php",
+		"/E/php/htdocs/kaoshi/application/views/C1/exam.php",
+		"/C/Users/Administrator/Desktop/AlloyPhoto-master/.htaccess",
+		"/C/Users/Administrator/Desktop/.htaccess",
+		"/E/php/htdocs/kaoshi/.htaccess",
+		"/E/php/htdocs/kaoshi/system/libraries/Driver.php",
+		"/E/php/htdocs/kaoshi/index.php",
+		"/E/php/htdocs/kaoshi/application/views/C1/footer.php",
+		"/E/php/htdocs/kaoshi/application/controllers/C1.php",
+		"/E/php/htdocs/kaoshi/application/views/B2/header.php",
+		"/E/php/htdocs/kaoshi/application/views/A1/header.php",
+		"/E/php/htdocs/kaoshi/application/models/paper_model.php",
+		"/E/php/htdocs/ks/bk/a1.km3.json",
+		"/F/下载/903DB504.QQ_a99ra4d2cbcxa!App/index.html",
+		"/E/php/htdocs/play/TeamToy/config/app.config.php",
+		"/E/php/htdocs/play/TeamToy/config/db.config.php",
+		"/E/php/htdocs/play/TeamToy/install.txt",
+		"/E/php/htdocs/play/TeamToy/index.php",
+		"/C/Users/Administrator/Desktop/考勤制度.docx",
+		"/E/php/htdocs/kaoshi/application/config/routes.php",
+		"/E/php/htdocs/kaoshi/application/controllers/admin_soude.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"order-result",
+			"id=\"order",
+			"site-order-result",
+			"site-indexs-result",
+			"设置",
+			"id=\"10\"[\\s\\S]+class=\\\"g\\\">[ ]*[\\w]*[.\\w]*",
+			"<table cellpadding=\"0\" cellspacing=\"0\" class=\"result\" id=\"10\"[\\s\\S]+class=\\\"g\\\">[ ]*[\\w]*[.\\w]*",
+			"<table cellpadding=\"0\" cellspacing=\"0\" class=\"result\" id=\"[\\d?\\d?\\d]\"",
+			"class=\\\"g\\\">[ \\w./-]*",
+			"class=\\\"g[\\s\\S]*<a data-nolog/",
+			"[\\w./]",
+			"<span class=\"g\">[\\w./]+[ \\d-]*</span>",
+			"[^\\d]+</span>",
+			"type",
+			"<?php //echo $classifyIs.$num;?>",
+			"row_count",
+			"1,3",
+			"20130408",
+			"exam",
+			"c1",
+			"100",
+			"\"answer\":",
+			"type",
+			"type=",
+			"2",
+			"	\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"网站管理",
+			"",
+			"1,6",
+			"",
+			"kaobao",
+			"C1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"exa",
+				"application/views/c1/exam_paper.php"
+			],
+			[
+				"exam",
+				"application/views/c1/exam_original.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"fau",
+				"application/views/c1/fault.php"
+			],
+			[
+				"rand",
+				"application/views/c1/random.php"
+			],
+			[
+				"list",
+				"application/views/c1/list.php"
+			],
+			[
+				"controller",
+				"application/controllers/welcome.php"
+			],
+			[
+				"views",
+				"application/views/c1/index.php"
+			],
+			[
+				"admin",
+				"application/controllers/admin_soude.php"
+			],
+			[
+				"fa",
+				"application/views/c1/fault.php"
+			],
+			[
+				"head",
+				"application/views/admin/header.php"
+			],
+			[
+				"conf",
+				"application/config/config.php"
+			],
+			[
+				"km",
+				"application/controllers/km3.php"
+			],
+			[
+				"getq",
+				"application/views/c1/getQuestionByIdPrint.php"
+			],
+			[
+				"",
+				"application/views/c1/faultPrint.php"
+			],
+			[
+				"get",
+				"application/views/c1/getQuestionByIdPrint.php"
+			],
+			[
+				"km1",
+				"application/controllers/km1.php"
+			],
+			[
+				"fault",
+				"application/views/c1/faultPrint.php"
+			],
+			[
+				"c1",
+				"application/views/c1/index.php"
+			],
+			[
+				"header",
+				"application/views/admin/header.php"
+			],
+			[
+				"paper",
+				"application/views/admin/paper.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true
+}
